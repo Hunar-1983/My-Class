@@ -5,8 +5,8 @@ import java.time.LocalDate;
 /*
 Warmup task:
 	1. create an array of string, store five of your friends names in it
-	2. create Array of localdates and store thier birthdays in the same order
-	3. use for loop to print out your friends' names and thier birthdays
+	2. create Array of localDates and store their birthdays in the same order
+	3. use for loop to print out your friends' names and their birthdays
  */
 public class LocalDate_Practice {
     public static void main(String[] args) {
