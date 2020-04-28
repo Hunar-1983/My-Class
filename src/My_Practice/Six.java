@@ -1,6 +1,7 @@
 package src.My_Practice;
 
 import java.sql.PreparedStatement;
+import java.util.Arrays;
 import java.util.Scanner;
 
 /*
@@ -12,18 +13,20 @@ the frequency of str2 in str1 as an int
  */
 public class Six {
     public static void main(String[] args) {
-        String word = "a1b2c3";
-        String nums="0123456789";
-        int res=0;
 
-        for (int i =0; i < word.length(); i++){
-            for (int k =0; k < nums.length(); k++){
-                if (word.charAt(i) == nums.charAt(k)){
-                    int num = Integer.parseInt(word.charAt(i)+"");
-                    res += num;
-                }
+        int [] num = {2, 3, 5, 4, 9};
+        int [] arr = new int[num.length];
+        for (int i = 0; i < num.length; i++){
+            arr[i] = num [i];
+        }
+        Arrays.sort(arr);
+        int count = 0;
+        for (int each : num){
+            for (int each2 : arr){
+                if (each== each2) count++;
             }
         }
-        System.out.println(res);
+        System.out.println(count == num.length);
+    }
 
-    }}
+}
