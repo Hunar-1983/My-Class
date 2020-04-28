@@ -5,23 +5,24 @@ import java.util.Arrays;
 
 public class two {
     public static void main(String[] args) {
-        String st = "a1b2c3";
-        String num = "123456789";
-        String res = "";
-        for (int k = 0; k < num.length(); k++) {
-            for (int i = 0; i < st.length(); i++) {
-                if (st.charAt(i) == num.charAt(k)) {
-                    res += st.charAt(i);
+        String word = "a1b2c3";
+        String nums="0123456789";
+        int res=0;
+        for (int i = 0; i < word.length(); i++) {
+            for(int j=0;j<nums.length();j++){
+                if (word.charAt(i) == nums.charAt(j)) {
+                    int num=Integer.parseInt(""+word.charAt(i));
+                    res += num;
                 }
             }
         }
         System.out.println(res);
-        String [] str = res.split("");
-        System.out.println(Arrays.toString(str));
-        int sum =0;
-        for (String each: str){
-             sum += Integer.valueOf(res);
-        }
-        System.out.println(sum);
+
+
+        String str = "a1b2c3";
+        String num ="0123456789";
+        int sum = 0;
+
+
     }
 }

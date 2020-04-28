@@ -12,16 +12,18 @@ the frequency of str2 in str1 as an int
  */
 public class Six {
     public static void main(String[] args) {
-        String one = "123458";
-        String two = "abcdeaaa";
-        String result = "";
-        int Big;
+        String word = "a1b2c3";
+        String nums="0123456789";
+        int res=0;
 
-        if (one.length() > two.length()) Big=one.length();
-        else  Big=two.length();
-        for (int i=0; i < Big; i++){
-            if (i<one.length()) result += one.charAt(i);
-            if (i<two.length()) result += two.charAt(i);
-
+        for (int i =0; i < word.length(); i++){
+            for (int k =0; k < nums.length(); k++){
+                if (word.charAt(i) == nums.charAt(k)){
+                    int num = Integer.parseInt(word.charAt(i)+"");
+                    res += num;
+                }
+            }
         }
-        System.out.println(result);}}
+        System.out.println(res);
+
+    }}
