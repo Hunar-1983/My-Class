@@ -1,20 +1,29 @@
 package src.My_Practice;
 
-import java.util.Arrays;
-import java.util.Scanner;
+import java.util.ArrayList;
 
 public class Three {
     public static void main(String[] args) {
-        int spaces = 5;
-        int rows = 6;
+        ArrayList<String> wordList1 = new ArrayList<>();
+        wordList1.add("hi");
+        wordList1.add("Hello");
 
-        for (int i = 1; i < 6; i++){
-            for(int k=0; k<spaces; k++){ System.out.print(" "); }
-            spaces -= 1;
-            for (int k =0; k <i; k++){
-                System.out.print("* ");
-            }
-            System.out.println();
+        ArrayList<String> wordList2 = new ArrayList<>();
+        wordList2.add("hi");
+        wordList2.add("Hello");
+       ArrayList<String> list  = combineAll(wordList1, wordList2);
+        System.out.println(list);
+    }
+
+    public static ArrayList<String> combineAll(ArrayList<String> wordList1,
+               ArrayList<String> wordList2){
+        ArrayList<String> list = new ArrayList<String>();
+        for(int i = 0; i < wordList1.size(); i++){
+            list.add(wordList1.get(i));
         }
+        for(String each : wordList2){
+            list.add(each);
+        }
+        return list;
     }
 }
