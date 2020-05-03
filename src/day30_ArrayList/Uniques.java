@@ -57,7 +57,6 @@ public class Uniques {
 
 
 
-        // list.get(0) ==> 1
 
 
     }

@@ -19,7 +19,7 @@ public class Arrays_Equal {
 
         int[] arr5 = {3, 2, 1};
         int[] arr6 = {2, 1, 3};
-        Arrays.sort(arr5);  //[ 1,  2,  3]
+        Arrays.sort(arr5);  //[ 1, 2, 3]
         Arrays.sort(arr6); // [ 1, 2, 3]
 
         boolean result3 = Arrays.equals(arr5, arr6);  // true

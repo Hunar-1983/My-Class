@@ -40,7 +40,7 @@ public class SumOfDigits {
 
         System.out.println(sum);
 
-        boolean a = Character.isAlphabetic('A');  // identifies if the character is alphebet
+        boolean a = Character.isAlphabetic('A');  // identifies if the character is alphabet
 
 
 

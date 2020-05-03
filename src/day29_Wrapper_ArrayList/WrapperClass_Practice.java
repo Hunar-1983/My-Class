@@ -23,7 +23,6 @@ public class WrapperClass_Practice {
 
         }
 
-
         System.out.println(max);
 
         System.out.println("=============================================");

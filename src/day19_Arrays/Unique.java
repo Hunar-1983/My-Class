@@ -1,4 +1,6 @@
 package src.day19_Arrays;
+
+
 /*
 1. write a program that can return the unique characters from a string
 		Ex:  "AABCC" ==> "B"

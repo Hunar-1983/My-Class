@@ -1,4 +1,4 @@
-package src.day31_Predicate;
+package src.day32_Predicate;
 
 import java.util.ArrayList;
 import java.util.Arrays;

@@ -1,6 +1,6 @@
 package src.day20_ArraysContinue;
 
-import java.util.Scanner;
+import java.util.Arrays;
 /*
  1. write a program that can find the maximum number from any given int array
                 NOTE: DO NOT USE ANYTHING THAT WE HAVN'T COVERED IN THE CLASS
