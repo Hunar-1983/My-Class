@@ -22,7 +22,7 @@ public class Bulk_ContainsAll {
         System.out.println(result);
          */
 
-        boolean result2 =   list1.containsAll(  Arrays.asList(10, 20, 30)  );
+        boolean result2 = list1.containsAll(  Arrays.asList(10, 20, 30)  );
         // CollectionType
         System.out.println(result2);
 

@@ -7,8 +7,7 @@ import java.util.function.Predicate;
 public class Lambda_Expression {
     public static void main(String[] args) {
 
-        Predicate<Integer> oddNumber = x -> x % 2 != 0; // our Predicate to remove odd number, and (x) is represented numbers and can be any letter;
-
+        Predicate<Integer> oddNumber = x -> x % 2 != 0; // our Predicate to remove odd number, and (x) represents numbers and can be any letter;
         ArrayList<Integer> list = new ArrayList<>();
         list.addAll(Arrays.asList(1,2, 3, 4, 5, 6, 7,8, 9, 10));
         list.removeIf(oddNumber);
