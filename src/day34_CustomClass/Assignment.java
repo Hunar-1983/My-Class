@@ -2,7 +2,7 @@ package src.day34_CustomClass;
 
 public class Assignment {
     /*
-    create a class called Testers
+   create a class called Testers
 			Attributes:
 				name, employeeID, JobTitle, Salary
 			Actions:
@@ -26,10 +26,8 @@ create a class called ScrumTeam
 create a class called BankOfAmerica:
 				Bank of America in VA is planning to create a scrum teams:
 						4 developers 2 testers
-				 create a arraylist of scrum team and:
+				 create an arraylist of scrum team and:
 						 1. use the for loop to print out every single employees from BOA' scrum teams
 						 2. calculate the total budgets of the scrumTeam
-}
-
      */
 }
