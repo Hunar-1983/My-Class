@@ -1,29 +1,21 @@
 package src.My_Practice;
 
-import java.util.ArrayList;
-
 public class Three {
-    public static void main(String[] args) {
-        ArrayList<String> wordList1 = new ArrayList<>();
-        wordList1.add("hi");
-        wordList1.add("Hello");
-
-        ArrayList<String> wordList2 = new ArrayList<>();
-        wordList2.add("hi");
-        wordList2.add("Hello");
-       ArrayList<String> list  = combineAll(wordList1, wordList2);
-        System.out.println(list);
-    }
-
-    public static ArrayList<String> combineAll(ArrayList<String> wordList1,
-               ArrayList<String> wordList2){
-        ArrayList<String> list = new ArrayList<String>();
-        for(int i = 0; i < wordList1.size(); i++){
-            list.add(wordList1.get(i));
-        }
-        for(String each : wordList2){
-            list.add(each);
-        }
-        return list;
-    }
+//    public static void main(String[] args) {
+//        int[][] a = {
+//                {1, 1, 2}, //sum = 4
+//                {3, 1, 2}, //sum = 6
+//                {3, 5, 3}, //sum = 11
+//                {0, 1, 2}  //sum = 3
+//        };
+//        int[] sums = rowSums(a);
+//        for (int sum : sums)
+//            System.out.println(sum);
+//        //this should print 4 6 11 3
+//    }
 }
+//        public static int[] rowSums(int[][] nums)
+//        {
+//
+//        }
+
