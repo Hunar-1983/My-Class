@@ -1,30 +1,27 @@
 package My_Practice;
 
-import src.Important.Array;
-
-import java.util.ArrayList;
-import java.util.Arrays;
-
 class Main {
-    public static void main(String[] args) {
 
-       String str = "ABCD123$%#@&456EFG!";
-       char [] arr = str.toCharArray();
-        Character [] chars = new Character[arr.length];
-        for (int i = 0; i < arr.length; i++){
-            chars [i] = arr[i];
-        }
+    /*
+    Task01:
+	1. Create a class called Employee
+			instance variables:
+					name, id, ssn, jobTitle, salary, gender
+			actions:
+					setEmployeeInfo(): can initialize all the instance variables
+					toString(): can return the info of the employee as string
+	2. create a class called HumanResources
+			declare 5 variables of Employee as static
+			use static block to:
+						1. initialize those static variables
+						2. set all the info of the Employees
+	3. create class called BankOfAzerbaijan
+		in the main method:
+				1. create a List of Employees
+				2. add random two employees from HumanResources to the List
+				3. use for each loop to print out the employee info
+				4. now go back to HumanResources class and comment out the static block
+				5. repeat the step 3 to print out the employee info to compare it with previous output
+     */
 
-        ArrayList<Character> letter = new ArrayList<>(Arrays.asList(chars));
-        letter.removeIf( x -> !Character.isLetter(x));
-        System.out.println(letter);
-
-        ArrayList<Character> number = new ArrayList<>(Arrays.asList(chars));
-        number.removeIf( p -> !Character.isDigit(p));
-        System.out.println(number);
-
-        ArrayList<Character> specialCharacter = new ArrayList<>(Arrays.asList(chars));
-        specialCharacter.removeIf(p -> Character.isDigit(p) || Character.isLetter(p));
-        System.out.println(specialCharacter);
-    }
 }
