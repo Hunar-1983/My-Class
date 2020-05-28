@@ -13,5 +13,9 @@ public class CarShop {
 
         Jeep jee1 = new Jeep();
         jee1.start();
+        System.out.println("=========================");
+
+        BMW bmw = new BMW();
+        bmw.start();
     }
 }
