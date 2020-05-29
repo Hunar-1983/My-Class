@@ -1,4 +1,4 @@
-package day01_FierstProgramming;
+package src.day01_FierstProgramming;
 
 public class HelloWorld {
     public static void main(String[] args) {

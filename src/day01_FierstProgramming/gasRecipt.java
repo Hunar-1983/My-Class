@@ -1,4 +1,4 @@
-package day01_FierstProgramming;
+package src.day01_FierstProgramming;
 
 public class gasRecipt {
     public static void main(String[] args) {

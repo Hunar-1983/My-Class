@@ -1,5 +1,5 @@
-package day24_Methods;
-import day01_FierstProgramming.HelloWorld;
+package src.day24_Methods;
+//import day01_FierstProgramming.HelloWorld;
 import day02_Variables.HelloCybertek;
 
 import java.util.Scanner;
