@@ -1,4 +1,4 @@
-package day03_VariablesContinue;
+package src.day03_VariablesContinue;
 
 public class ArithmeticOperators {
     public static void main(String[] args) {

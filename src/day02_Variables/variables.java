@@ -1,4 +1,4 @@
-package day02_Variables;
+package src.day02_Variables;
 
 public class variables {
     public static void main(String[] args) {
@@ -38,7 +38,7 @@ public class variables {
         System.out.println( 9999999999999L );
         long n5 = 19;
 
-        // int num = 7L;  larger one cannot be asisgned to smaller one
+        // int num = 7L;  larger one cannot be a signed to smaller one
 
         // double > float > long > int > short > byte
 
@@ -53,7 +53,7 @@ public class variables {
         System.out.println( 3.5 );
         double d1 = 3.5;
 
-        // float f1  = 4.5;  // double primitve is larger than float primitive, cannot assigned
+        // float f1  = 4.5;  // double primitive is larger than float primitive, cannot assigned
 
         float f2 = 5.5f;
         System.out.println(f2);

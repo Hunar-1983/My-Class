@@ -1,4 +1,4 @@
-package day02_Variables;
+package src.day02_Variables;
 
 public class StringPractice {
     public static void main(String[] args) {

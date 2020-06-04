@@ -1,4 +1,4 @@
-package day04_JavaRecap;
+package src.day04_JavaRecap;
 
 public class ArithmeticOperators {
     public static void main(String[] args) {

@@ -1,11 +1,11 @@
-package day02_Variables;
+package src.day02_Variables;
 
 public class EscapeSiquences {
     public static void main(String[] args) {
         System.out.println("Hello");
         System.out.println("\tHello");
         System.out.println("\t\t\t\t\t\tHello");
-        // \t means a pragraph space
+        // \t means a paragraph space
 
         System.out.println("Cybertek School");
         System.out.println("Cybertek\nSchool");

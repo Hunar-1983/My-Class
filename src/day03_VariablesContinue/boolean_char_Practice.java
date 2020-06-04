@@ -1,4 +1,4 @@
-package day03_VariablesContinue;
+package src.day03_VariablesContinue;
 
 public class boolean_char_Practice {
 
